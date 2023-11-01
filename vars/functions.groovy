@@ -1,7 +1,6 @@
-def cloneProjectRepo(repoUrl, branch) {
-    sh "git clone -b ${branch} ${repoUrl}"
+def cloneProjectRepo(repoUrl) {
+    sh "git clone ${repoUrl}"
 }
 
 def repoUrl = 'https://github.com/vyadav5/ansible-newRelic.git' 
-def branch = 'main'  
-cloneProjectRepo(repoUrl, branch)
+
