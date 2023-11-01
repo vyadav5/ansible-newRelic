@@ -1,0 +1,5 @@
+---
+# Common base URL for Ubuntu,Debian,CentOS
+ newrelic_repo_base_url: "deb https://download.newrelic.com/infrastructure_agent/linux/apt"
+ newrelic_centos_url: "https://download.newrelic.com/infrastructure_agent/linux/yum/el/"
+

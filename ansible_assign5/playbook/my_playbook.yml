@@ -1,0 +1,9 @@
+---
+- hosts: centos, ubuntu, debian
+  become: yes
+  gather_facts: yes 
+  roles:
+    - new_relic      #includes role
+
+
+  

@@ -1,0 +1,4 @@
+---
+# group_vars/debian.yml
+ansible_ssh_private_key_file: /home/ubuntu/mykey.pem
+ansible_ssh_user: admin
